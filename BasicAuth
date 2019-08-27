@@ -1,0 +1,16 @@
+<form method=post name=do class=post action='<?php echo $_POST['link-login']; ?>'>
+		
+		
+		<a href=teste class=btn>TESTE</a>
+		
+		Url login: {$_POST['link-login']}
+		
+		<input name=username value='user1'>
+		<input name=password value='12345678'>
+		
+		
+		<input type=submit value='ENVIAR'>
+		
+		Teste $(chap-id) $(uptime)
+		
+</form>
